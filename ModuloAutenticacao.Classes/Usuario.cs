@@ -9,7 +9,13 @@ namespace ModuloAutenticacao.Classes
     //Classe é um conjunto de objetos
     public class Usuario
     {
-        public string login { get; set; } //get = guardar o valor
-        public string senha { get; set; } //set = mandar o valor
+
+        //get = guardar o valor
+        //set = mandar o valor
+        // POCO = Plain Old C_Sharp Object
+
+
+        public string login { get; set; }
+        public string senha { get; set; }
     }
 }

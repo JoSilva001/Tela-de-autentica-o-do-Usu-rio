@@ -16,7 +16,7 @@ namespace ModuloAutenticacao.Desktop_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaAutenticacao());
+            Application.Run(new TelaNível());
         }
     }
 }
